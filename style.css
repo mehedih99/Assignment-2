@@ -1,3 +1,39 @@
 body{
-    
+    margin: 0;
+    padding: 0;
+    background: rgb(252, 251, 249);
+}
+.menu-bar
+{
+    background: rgb(32, 27, 58);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff; 
+}
+.logo img{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 120px;
+}
+.image9{
+    float: right;
+    padding-top: 30px;
+    padding-right: 30px;
 }
